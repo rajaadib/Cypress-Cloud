@@ -16,9 +16,10 @@ cacheDirectories:
   - cypressCache
 env:
   CYPRESS_CACHE_FOLDER: cypressCache
-  HYPEREXECUTE_CUSTOM_BUILD: Build - demo - 4
+  HYPEREXECUTE_CUSTOM_BUILD: Build - Scenarios
 matrix:
   browser:
+    - Chrome-latest-1
     - MicrosoftEdge-latest-1
   test:
     - ./cypress/integration/examples/Task1.spec.js
@@ -29,7 +30,7 @@ testSuites:
   - npx cypress run --browser=$browser --headed --config video=false --spec $test
 cypressOps:
   DedicatedProxy: false
-  Build: Build - demo - 4
+  Build: Build - Scenarios
   BuildTags: []
   Tags: []
   Network: false
