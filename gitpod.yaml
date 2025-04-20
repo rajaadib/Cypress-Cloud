@@ -1,0 +1,11 @@
+tasks:
+  - name: Install Cypress and Dependencies
+    init: |
+      npm install -g npm@9.9.4
+      npm install
+    command: npx cypress run
+
+vscode:
+  extensions:
+    - ms-vscode.vscode-typescript-next
+    - esbenp.prettier-vscode
