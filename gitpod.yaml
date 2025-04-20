@@ -1,8 +1,8 @@
 tasks:
-  - name: Install Cypress and Dependencies
+  - name: Cypress 9.2.1
     init: |
       npm install -g npm@9.9.4
-      npm install
+      npm ci
     command: npx cypress run
 
 vscode:
