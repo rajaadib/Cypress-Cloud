@@ -1,3 +1,5 @@
+# Use Cypress 9.2.1
+
 # Run Cypress Tests On LambdaTest ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
 <img height="500" class ="centre" src="https://user-images.githubusercontent.com/70570645/171032160-65d8a2c3-e04b-482d-b1c6-538b75be5fb0.png">
